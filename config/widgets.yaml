@@ -10,3 +10,9 @@
 - search:
     provider: duckduckgo
     target: _blank
+
+- datetime:
+    format:
+      date: long
+      time: short
+    hourCycle: h23

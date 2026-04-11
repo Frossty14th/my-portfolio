@@ -12,3 +12,10 @@
         server: my-docker
         container: my-portfolio-management-ui-1
         showStats: true
+
+- System:
+    - Stats:
+        icon: ubuntu.png
+        widget:
+          type: homepage
+          showUptime: true

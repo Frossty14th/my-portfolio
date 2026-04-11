@@ -2,17 +2,20 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/info-widgets/
 
+- greeting:
+    text_size: l
+    text: "Welcome to the Lab!"
+
+- datetime:
+    format:
+      timeStyle: short
+      hourCycle: h23
+
+- search:
+    provider: google
+    target: _blank
+
 - resources:
     cpu: true
     memory: true
     disk: /
-
-- search:
-    provider: duckduckgo
-    target: _blank
-
-- datetime:
-    format:
-      date: long
-      time: short
-    hourCycle: h23

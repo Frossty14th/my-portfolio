@@ -5,3 +5,67 @@
 [2026-04-10T06:31:15.546Z] info: proxmox.yaml was copied to the config folder
 [2026-04-10T06:31:15.560Z] info: custom.css was copied to the config folder
 [2026-04-10T06:31:15.561Z] info: custom.js was copied to the config folder
+[2026-04-11T04:13:10.172Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:13:10.172Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:13:10.636Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:13:10.645Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:13:11.257Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:13:11.257Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:13:26.380Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:13:26.380Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:16:49.851Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:16:49.853Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:16:50.349Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:16:50.351Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:16:50.823Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:16:50.826Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^
+[2026-04-11T04:17:00.360Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-04-11T04:17:00.361Z] error: can not read an implicit mapping pair; a colon is missed (21:37)
+
+ 18 |  ... 
+ 19 |  ... ting:
+ 20 |  ... xt_size: l
+ 21 |  ... xt "Wellcome to the Test Lab!"
+-----------------------------------------^

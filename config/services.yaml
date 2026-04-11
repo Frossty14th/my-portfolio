@@ -1,11 +1,14 @@
-- Infrastructure:
-    - Portainer:
-        icon: portainer.png
-        href: http://localhost:9000
-        description: Container Management
-
-- My Projects:
+- My Lab:
     - Portfolio:
         icon: nginx.png
         href: http://localhost:8080
-        description: My Personal Website
+        server: my-docker
+        container: my-portfolio-portfolio-site-1
+        showStats: true
+
+    - Portainer:
+        icon: portainer.png
+        href: http://localhost:9000
+        server: my-docker
+        container: my-portfolio-management-ui-1
+        showStats: true

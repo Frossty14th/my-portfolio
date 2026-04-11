@@ -18,13 +18,10 @@
         icon: jellyfin.png
         href: http://localhost:8096
         description: Private Media Server
+        server: my-docker
         container: jellyfin
-
-- System:
-    - Stats:
-        icon: ubuntu.png
+        showStats: true
         widget:
-          type: homepage
-          showUptime: true
-
-
+          type: jellyfin
+          url: http://jellyfin:8096
+          key: 42c27e7bee654a749c0a24dfd312bb47

@@ -7,6 +7,8 @@ services:
       - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
+    networks:
+      - my-lab-network
 
   portfolio-site:
     image: nginx
@@ -29,7 +31,6 @@ services:
   jellyfin:           # <--- Make sure this is indented 2 spaces!
       image: jellyfin/jellyfin
       container_name: jellyfin
-      network_mode: bridge
       ports:
         - 8096:8096
       volumes:
@@ -37,7 +38,12 @@ services:
         - ./media/movies:/data/movies
         - ./media/music:/data/music
       restart: unless-stopped
+      networks:
+        - my-lab-network
 
+networks:
+  my-lab-network:
+    driver: bridge
 
 volumes:
   portainer_data:

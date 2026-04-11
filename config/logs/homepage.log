@@ -69,3 +69,262 @@
  20 |  ... xt_size: l
  21 |  ... xt "Wellcome to the Test Lab!"
 -----------------------------------------^
+[2026-04-11T07:33:50.943Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:33:50.951Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:33:50.952Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:33:50.953Z] error: <httpProxy> Error calling http://localhost:8096/emby/Items/Counts...
+[2026-04-11T07:33:50.955Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:33:50.955Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Items/Counts?api_key=
+[2026-04-11T07:33:55.750Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:33:55.751Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:33:55.753Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:00.839Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:00.840Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:00.840Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:05.867Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:05.868Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:05.868Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:10.912Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:10.920Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:10.921Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:15.962Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:15.962Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:15.962Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:21.000Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:21.001Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:21.003Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:24.530Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:34:24.531Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:24.531Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:34:24.533Z] error: <httpProxy> Error calling http://localhost:8096/emby/Items/Counts...
+[2026-04-11T07:34:24.534Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:34:24.536Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Items/Counts?api_key=
+[2026-04-11T07:35:06.903Z] error: <httpProxy> Error calling http://localhost:8096/emby/Items/Counts...
+[2026-04-11T07:35:06.907Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:35:06.907Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Items/Counts?api_key=
+[2026-04-11T07:35:06.913Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:35:06.914Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:35:06.915Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:35:34.618Z] error: <httpProxy> Error calling http://localhost:8096/emby/Sessions...
+[2026-04-11T07:35:34.619Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:35:34.619Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Sessions?api_key=
+[2026-04-11T07:35:34.622Z] error: <httpProxy> Error calling http://localhost:8096/emby/Items/Counts...
+[2026-04-11T07:35:34.623Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED'
+  }
+]
+[2026-04-11T07:35:34.623Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://localhost:8096/emby/Items/Counts?api_key=
+[2026-04-11T07:38:11.704Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-11T07:38:11.707Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:11.707Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:11.708Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-11T07:38:11.710Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:11.710Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:16.711Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-11T07:38:16.715Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:16.718Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:16.720Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-11T07:38:16.724Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:16.725Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:29.240Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-11T07:38:29.247Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:29.248Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:29.255Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-11T07:38:29.257Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:29.257Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:38.049Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-11T07:38:38.052Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:38.052Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:38:38.055Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-11T07:38:38.057Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:38:38.059Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:39:39.550Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-11T07:39:39.555Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:39:39.557Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:39:39.569Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-11T07:39:39.570Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN jellyfin
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'jellyfin'
+  }
+]
+[2026-04-11T07:39:39.570Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:49.184Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:49.189Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:50.634Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:50.696Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:55.678Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:57.383Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:52:57.386Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:03.398Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:08.434Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:35.968Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:35.977Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:36.914Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T07:53:36.918Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47

@@ -26,5 +26,19 @@ services:
       - portainer_data:/var/data
     restart: unless-stopped
 
+  jellyfin:           # <--- Make sure this is indented 2 spaces!
+      image: jellyfin/jellyfin
+      container_name: jellyfin
+      network_mode: bridge
+      ports:
+        - 8096:8096
+      volumes:
+        - ./jellyfin-config:/config
+        - ./media/movies:/data/movies
+        - ./media/music:/data/music
+      restart: unless-stopped
+
+
 volumes:
   portainer_data:
+

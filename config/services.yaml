@@ -13,6 +13,13 @@
         container: my-portfolio-management-ui-1
         showStats: true
 
+- Media:
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://localhost:8096
+        description: Private Media Server
+        container: jellyfin
+
 - System:
     - Stats:
         icon: ubuntu.png

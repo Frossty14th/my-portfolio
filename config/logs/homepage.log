@@ -328,3 +328,11 @@
 [2026-04-11T07:53:35.977Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
 [2026-04-11T07:53:36.914Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
 [2026-04-11T07:53:36.918Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:29.192Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:29.546Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:31.010Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:31.040Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:36.360Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:36.385Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:58.567Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-11T10:06:58.585Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47

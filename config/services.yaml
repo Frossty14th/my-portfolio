@@ -16,7 +16,7 @@
 - Media:
     - Jellyfin:
         icon: jellyfin.png
-        href: http://localhost:8096
+        href: http://100.94.75.59:8096
         description: Private Media Server
         server: my-docker
         container: jellyfin

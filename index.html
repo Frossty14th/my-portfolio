@@ -1,2 +1,45 @@
-<h1>Welcome to my DevOPs Journey</h1>
-I am ready
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Portfolio</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; margin: 0; padding: 40px; }
+        .container { max-width: 800px; margin: auto; background: #1e293b; padding: 40px; border-radius: 15px; border: 1px solid #334155; }
+        h1 { color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; }
+        h2 { color: #00ffa3; font-size: 1.2rem; margin-top: 30px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .card { background: #0f172a; padding: 15px; border-radius: 8px; border-left: 4px solid #38bdf8; }
+        .tag { background: #334155; padding: 4px 10px; border-radius: 20px; font-size: 0.8rem; margin-right: 5px; }
+        .btn { display: block; text-align: center; margin-top: 40px; padding: 15px; background: #38bdf8; color: #0f172a; text-decoration: none; font-weight: bold; border-radius: 8px; }
+        .btn:hover { background: #7dd3fc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vince | Infrastructure Lab</h1>
+        <p>Specializing in Docker virtualization, secure networking, and self-hosted cloud solutions.</p>
+
+        <h2>Current Infrastructure</h2>
+        <div class="grid">
+            <div class="card">
+                <strong>Containerized Services</strong>
+                <p>Managing microservices via Docker-Compose for high availability.</p>
+                <span class="tag">Docker</span> <span class="tag">Nginx</span>
+            </div>
+            <div class="card">
+                <strong>Private Mesh Network</strong>
+                <p>Secure global access to internal tools via encrypted tunneling.</p>
+                <span class="tag">Tailscale</span> <span class="tag">VPN</span>
+            </div>
+        </div>
+
+        <h2>Active Projects</h2>
+        <ul>
+            <li><strong>Personal Media Cloud:</strong> Self-hosted Jellyfin server with automated library management.</li>
+            <li><strong>Service Dashboard:</strong> Custom Homepage portal monitoring container health and system vitals.</li>
+        </ul>
+
+        <a href="http://100.94.75.59:3000" class="btn">ENTER LIVE DASHBOARD</a>
+    </div>
+</body>
+</html>

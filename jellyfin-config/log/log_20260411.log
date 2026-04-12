@@ -589,3 +589,11 @@ PRAGMA temp_store=2;
 [2026-04-11 10:09:27.132 +00:00] [INF] [28] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
 [2026-04-11 10:09:54.209 +00:00] [INF] [21] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Frossty14th". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
 [2026-04-11 10:10:00.254 +00:00] [INF] [21] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.8" playing "20250908_101402". Stopped at "4622" ms
+[2026-04-11 10:15:24.620 +00:00] [INF] [13] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "100.94.75.59" closed
+[2026-04-11 10:18:28.132 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-04-11 10:18:28.245 +00:00] [INF] [38] Main: Running query planner optimizations in the database... This might take a while
+[2026-04-11 10:18:28.346 +00:00] [INF] [9] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2026-04-11 10:18:28.354 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-04-11 10:18:28.354 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2026-04-11 10:18:28.355 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2026-04-11 10:18:28.356 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

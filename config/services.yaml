@@ -25,3 +25,13 @@
           type: jellyfin
           url: http://jellyfin:8096
           key: 42c27e7bee654a749c0a24dfd312bb47
+
+- Infrastructure:
+    - Tailscale:
+        icon: tailscale.png
+        href: https://login.tailscale.com/admin/machines
+        description: Secure Mesh Network
+        widget:
+        type: tailscale
+        deviceid: kfjWDefWC221CNTRL
+        key: tskey-api-kfjWDefWC221CNTRL-qTgviEqA7hfCZVQ6UWargfW5kEAALhZDP

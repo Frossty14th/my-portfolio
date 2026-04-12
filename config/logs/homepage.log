@@ -336,3 +336,116 @@
 [2026-04-11T10:06:36.385Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
 [2026-04-11T10:06:58.567Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
 [2026-04-11T10:06:58.585Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:14.983Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Sessions...
+[2026-04-12T03:37:14.995Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.19.0.3:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.19.0.3:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.19.0.3',
+    port: 8096
+  }
+]
+[2026-04-12T03:37:14.996Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:15.017Z] error: <httpProxy> Error calling http://jellyfin:8096/emby/Items/Counts...
+[2026-04-12T03:37:15.018Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.19.0.3:8096
+      at <unknown> (Error: connect ECONNREFUSED 172.19.0.3:8096) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.19.0.3',
+    port: 8096
+  }
+]
+[2026-04-12T03:37:15.019Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:17.145Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:17.165Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:22.333Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:27.303Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:36.436Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:36.441Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:37.529Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:39.149Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:39.152Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:44.821Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:44.824Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:47.760Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:47.770Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:53.452Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:53.474Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:57.791Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:57.902Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:58.486Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Sessions?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T03:37:58.525Z] error: <jellyfinProxyHandler> HTTP Error 503 calling http://jellyfin:8096/emby/Items/Counts?api_key=42c27e7bee654a749c0a24dfd312bb47
+[2026-04-12T04:19:15.214Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.639Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.658Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.662Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.674Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.687Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.692Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.705Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.713Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.726Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.736Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.740Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.744Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.748Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.758Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.782Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.827Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.833Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.838Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:15.963Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.578Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.836Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.846Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.852Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.858Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.863Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.867Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.908Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.914Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.917Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.919Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.928Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.933Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.983Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.990Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:37.997Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:38.000Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:38.002Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:38.006Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:38.136Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T04:19:38.308Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.057Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.293Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.296Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.310Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.322Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.328Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.339Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.345Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.350Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.358Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.363Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.379Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.381Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.385Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.390Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.396Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.416Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.425Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.428Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.481Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:09.687Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:17.994Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:18.011Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:20.208Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:17:21.177Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:20:31.736Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-12T05:20:31.744Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.

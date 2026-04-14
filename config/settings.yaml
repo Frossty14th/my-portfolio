@@ -7,3 +7,6 @@ providers:
   weatherapi: weatherapiapikey
 
 fourTwentyFour: true
+
+allowedHosts:
+  - 10.0.2.15

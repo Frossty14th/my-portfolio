@@ -2,6 +2,7 @@
     - Portfolio:
         icon: nginx.png
         href: http://localhost:8080
+        description: "(IP: 10.0.2.15:8080)"
         server: my-docker
         container: my-portfolio-portfolio-site-1
         showStats: true
@@ -9,6 +10,7 @@
     - Portainer:
         icon: portainer.png
         href: http://localhost:9000
+        description: "(IP: 10.0.2.15:9000)"
         server: my-docker
         container: my-portfolio-management-ui-1
         showStats: true
@@ -17,7 +19,7 @@
     - Jellyfin:
         icon: jellyfin.png
         href: http://100.94.75.59:8096
-        description: Private Media Server
+        description: "Private Media Server (IP: 10.0.2.15:8096)"
         server: my-docker
         container: jellyfin
         showStats: true
@@ -25,6 +27,15 @@
           type: jellyfin
           url: http://jellyfin:8096
           key: 42c27e7bee654a749c0a24dfd312bb47
+
+- Entertainment:
+    - Kavita:
+        icon: kavita.png
+        href: http://10.0.2.15:5000
+        description: "Digital Manga & Books (10.0.2.15:5000)"
+        widget:
+          type: kavita
+          url: http://kavita:5000
 
 - Infrastructure:
     - Tailscale:

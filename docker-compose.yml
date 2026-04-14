@@ -41,6 +41,17 @@ services:
       networks:
         - my-lab-network
 
+  kavita:
+    image: jvmilazz0/kavita:latest
+    container_name: kavita
+    volumes:
+      - ./data/kavita/manga:/manga
+      - ./data/kavita/books:/books
+      - ./data/kavita/config:/kavita/config
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
 networks:
   my-lab-network:
     driver: bridge

@@ -449,3 +449,779 @@
 [2026-04-12T05:17:21.177Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
 [2026-04-12T05:20:31.736Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
 [2026-04-12T05:20:31.744Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:12:32.012Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:12:32.027Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:12:32.036Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:12:37.050Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:12:37.054Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:12:37.057Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:12:48.145Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:12:48.147Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:12:48.150Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:12:53.177Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:12:53.178Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:12:53.178Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:13:10.728Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:13:10.729Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:13:10.730Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:13:15.747Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:13:15.748Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:13:15.748Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:14:18.266Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:14:18.273Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:14:18.276Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:14:19.050Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:14:19.051Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:14:19.056Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:14:23.315Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:14:23.316Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:14:23.316Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:14:24.066Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:14:24.067Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:14:24.067Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:15:26.349Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:15:26.350Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:15:26.351Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:15:31.363Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:15:31.365Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:15:31.366Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:16:10.991Z] error: <servicesProxy> YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+[2026-04-14T07:16:12.126Z] error: <servicesProxy> YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+[2026-04-14T07:16:12.132Z] error: <servicesProxy> YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1464:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2269:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+[2026-04-14T07:16:12.184Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T07:16:12.186Z] error: YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+[2026-04-14T07:16:12.213Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T07:16:12.213Z] error: YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+[2026-04-14T07:16:12.969Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T07:16:12.970Z] error: YAMLException: duplicated mapping key (44:9)
+
+ 41 |         icon: kavita.png
+ 42 |         href: http://10.0.2.15:5000
+ 43 |         description: Digital Manga & Books
+ 44 |         description: 10.0.2.15:5000
+--------------^
+ 45 |         widget:
+ 46 |           type: kavita
+[2026-04-14T07:16:47.213Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:16:47.215Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:16:47.217Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:16:52.232Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:16:52.234Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:16:52.237Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:17:02.234Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:17:02.235Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:17:02.236Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:17:07.249Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:17:07.249Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:17:07.249Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:18:35.173Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:18:35.175Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:18:35.179Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:18:38.469Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.906Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.917Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.942Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.958Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.969Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.977Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:38.984Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.039Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.073Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.104Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.142Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.150Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.158Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.170Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.185Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.392Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.606Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.629Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.636Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.655Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:39.684Z] error: Host validation failed for: 100.94.75.59:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-04-14T07:18:40.190Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:18:40.191Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:18:40.192Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:18:53.588Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:18:53.593Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:18:53.596Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:18:58.609Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:18:58.611Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:18:58.611Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:58:33.657Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:58:33.659Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:58:33.661Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:58:34.177Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:58:34.178Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:58:34.179Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:58:38.988Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:58:38.991Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:58:38.991Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:58:39.186Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:58:39.187Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:58:39.188Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:59:39.810Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:59:39.811Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:39.814Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:59:40.334Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:59:40.335Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:40.336Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:59:44.824Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:59:44.824Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:44.824Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:59:45.342Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:59:45.343Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:45.347Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T07:59:53.249Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T07:59:53.251Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:53.252Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T07:59:58.259Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T07:59:58.261Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T07:59:58.261Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T08:00:47.716Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T08:00:47.718Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:00:47.721Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T08:00:48.345Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T08:00:48.347Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:00:48.348Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T08:00:52.729Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T08:00:52.731Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:00:52.732Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T08:00:53.358Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T08:00:53.359Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:00:53.360Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T08:01:07.576Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+[2026-04-14T08:01:07.585Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+[2026-04-14T08:01:07.586Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+[2026-04-14T08:01:07.621Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T08:01:07.621Z] error: YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+[2026-04-14T08:01:07.639Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T08:01:07.639Z] error: YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+[2026-04-14T08:01:08.066Z] error: Failed to load services.yaml, please check for errors
+[2026-04-14T08:01:08.067Z] error: YAMLException: bad indentation of a mapping entry (5:19)
+
+ 2 |     - Portfolio:
+ 3 |         icon: nginx.png
+ 4 |         href: http://localhost:8080
+ 5 |         lable: (IP: 10.0.2.15:8080)"
+-----------------------^
+ 6 |         server: my-docker
+ 7 |         container: my-portfolio-portfolio-site-1
+[2026-04-14T08:01:35.856Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T08:01:35.857Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:01:35.858Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T08:01:40.866Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T08:01:40.868Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:01:40.869Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T08:02:36.543Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T08:02:36.545Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:02:36.548Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T08:02:41.557Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T08:02:41.558Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:02:41.558Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }
+[2026-04-14T08:02:42.540Z] error: <httpProxy> Error calling http://kavita:5000/api/Account/login...
+[2026-04-14T08:02:42.541Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:02:42.542Z] error: <kavitaProxyHandler> Unable to login to Kavita API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at m (.next/server/pages/api/services/proxy.js:1:3442)
+    at async o (.next/server/pages/api/services/proxy.js:1:4628)
+    at async l (.next/server/pages/api/services/proxy.js:55:2377)
+    at async Module.n (.next/server/pages/api/services/proxy.js:82:13408)
+[2026-04-14T08:02:47.550Z] error: <httpProxy> Error calling http://kavita:5000/api/Stats/server/stats...
+[2026-04-14T08:02:47.552Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN kavita
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'kavita'
+  }
+]
+[2026-04-14T08:02:47.552Z] error: <kavitaProxyHandler> Error getting data from Kavita: http://kavita:5000/api/Stats/server/stats status 500. Data: { error: [Object] }

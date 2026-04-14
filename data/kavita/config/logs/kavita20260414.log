@@ -1,0 +1,134 @@
+[Kavita] [2026-04-14 07:07:59.693 +00:00  1] [Information] NeoSmart.Caching.Sqlite.SqliteCache Initializing db cache: Data Source=config/cache.db;Mode=ReadWriteCreate;Cache=Shared
+[Kavita] [2026-04-14 07:07:59.835 +00:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-04-14 07:07:59.857 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-04-14 07:08:00.024 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-04-14 07:08:00.041 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-04-14 07:08:00.056 +00:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-04-14 07:08:00.108 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily at 0:00
+[Kavita] [2026-04-14 07:08:00.124 +00:00  1] [Information] API.Services.HostedServices.ReadingSessionInitializer Closing any orphaned reading sessions from previous run
+[Kavita] [2026-04-14 07:08:00.153 +00:00  1] [Information] API.Services.HostedServices.ReadingSessionInitializer Closed 0 orphaned reading sessions
+[Kavita] [2026-04-14 07:08:00.179 +00:00  13] [Information] API.Program Running Migrations
+[Kavita] [2026-04-14 07:08:00.235 +00:00  13] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:00.286 +00:00  13] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:00.293 +00:00  13] [Fatal] API.Program Running MigrateSmartFilterEncoding migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:00.309 +00:00  13] [Fatal] API.Program Running MigrateSmartFilterEncoding migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:00.315 +00:00  13] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:00.376 +00:00  13] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:00.381 +00:00  13] [Fatal] API.Program Running MigrateEmailTemplates migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:01.426 +00:00  16] [Information] API.Program /kavita/config/templates/EmailChange.html downloaded and written successfully
+[Kavita] [2026-04-14 07:08:01.725 +00:00  13] [Information] API.Program /kavita/config/templates/EmailConfirm.html downloaded and written successfully
+[Kavita] [2026-04-14 07:08:02.036 +00:00  13] [Information] API.Program /kavita/config/templates/EmailPasswordReset.html downloaded and written successfully
+[Kavita] [2026-04-14 07:08:02.340 +00:00  13] [Information] API.Program /kavita/config/templates/SendToDevice.html downloaded and written successfully
+[Kavita] [2026-04-14 07:08:02.654 +00:00  13] [Information] API.Program /kavita/config/templates/EmailTest.html downloaded and written successfully
+[Kavita] [2026-04-14 07:08:02.654 +00:00  13] [Fatal] API.Program Running MigrateEmailTemplates migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.674 +00:00  13] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:02.702 +00:00  13] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.704 +00:00  13] [Fatal] API.Program Running MigrateWantToReadImport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:02.706 +00:00  13] [Information] API.Program No want-to-read import file found, skipping
+[Kavita] [2026-04-14 07:08:02.737 +00:00  13] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.759 +00:00  13] [Fatal] API.Program Running MigrateClearNightlyExternalSeriesRecords migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:02.815 +00:00  13] [Fatal] API.Program Running MigrateClearNightlyExternalSeriesRecords migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.821 +00:00  13] [Fatal] API.Program Running MigrateVolumeLookupName migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:02.827 +00:00  13] [Fatal] API.Program Running MigrateVolumeLookupName migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.835 +00:00  13] [Fatal] API.Program Running MigrateChapterNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:02.895 +00:00  13] [Fatal] API.Program Running MigrateChapterNumber migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:02.908 +00:00  13] [Fatal] API.Program Running MigrateProgressExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.019 +00:00  13] [Fatal] API.Program Running MigrateProgressExport migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.114 +00:00  13] [Fatal] API.Program Running ManualMigrateMixedSpecials migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.160 +00:00  13] [Fatal] API.Program Migrating 0 progress events to new Volume structure for Specials - This may take over 10 minutes depending on size of DB. Please wait
+[Kavita] [2026-04-14 07:08:03.177 +00:00  13] [Fatal] API.Program Running ManualMigrateMixedSpecials migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.199 +00:00  13] [Fatal] API.Program Running MigrateLooseLeafChapters migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.241 +00:00  13] [Fatal] API.Program Migrating 0 progress events to new Volume structure for Loose leafs - This may take over 10 minutes depending on size of DB. Please wait
+[Kavita] [2026-04-14 07:08:03.257 +00:00  13] [Fatal] API.Program Running MigrateLooseLeafChapters migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.272 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.577 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 volumes that only have specials in them
+[Kavita] [2026-04-14 07:08:03.649 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 volumes that only have loose leaf chapters in them
+[Kavita] [2026-04-14 07:08:03.649 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Updating all MangaFiles
+[Kavita] [2026-04-14 07:08:03.808 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 loose leaf chapters
+[Kavita] [2026-04-14 07:08:03.824 +00:00  13] [Fatal] API.Program Running MigrateChapterFields migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.852 +00:00  13] [Fatal] API.Program Running MigrateChapterRange migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.921 +00:00  13] [Fatal] API.Program Running MigrateChapterRange migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.928 +00:00  13] [Fatal] API.Program Running MigrateMangaFilePath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.935 +00:00  13] [Fatal] API.Program Running MigrateMangaFilePath migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.949 +00:00  13] [Fatal] API.Program Running MigrateLowestSeriesFolderPath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:03.975 +00:00  13] [Fatal] API.Program Running MigrateLowestSeriesFolderPath migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:03.981 +00:00  13] [Fatal] API.Program Running ManualMigrateThemeDescription migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.003 +00:00  13] [Fatal] API.Program Running ManualMigrateThemeDescription migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.008 +00:00  13] [Fatal] API.Program Running MigrateInitialInstallData migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.028 +00:00  13] [Fatal] API.Program Running MigrateInitialInstallData migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.043 +00:00  13] [Fatal] API.Program Running MigrateSeriesLowestFolderPath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.137 +00:00  13] [Fatal] API.Program Running MigrateSeriesLowestFolderPath migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.143 +00:00  13] [Fatal] API.Program Running MigrateLowestSeriesFolderPath2 migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.150 +00:00  13] [Fatal] API.Program Running MigrateLowestSeriesFolderPath2 migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.163 +00:00  13] [Fatal] API.Program Running MigrateDuplicateDarkTheme migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.182 +00:00  13] [Fatal] API.Program Running MigrateDuplicateDarkTheme migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.188 +00:00  13] [Fatal] API.Program Running ManualMigrateUnscrobbleBookLibraries migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.231 +00:00  13] [Fatal] API.Program Running ManualMigrateUnscrobbleBookLibraries migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.238 +00:00  13] [Fatal] API.Program Running ManualMigrateBlacklistTableToSeries migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.279 +00:00  13] [Fatal] API.Program Running ManualMigrateBlacklistTableToSeries migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.285 +00:00  13] [Fatal] API.Program Running ManualMigrateInvalidBlacklistSeries migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.323 +00:00  13] [Fatal] API.Program Running ManualMigrateInvalidBlacklistSeries migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.329 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleErrors migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.357 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleErrors migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.363 +00:00  13] [Fatal] API.Program Running ManualMigrateNeedsManualMatch migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.391 +00:00  13] [Fatal] API.Program Running ManualMigrateNeedsManualMatch migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.398 +00:00  13] [Fatal] API.Program Running MigrateProgressExportForV085 migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.402 +00:00  13] [Fatal] API.Program Running MigrateProgressExportForV085 migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.439 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleSpecials migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.467 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleSpecials migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.473 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleEventGen migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.497 +00:00  13] [Fatal] API.Program Running ManualMigrateScrobbleEventGen migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.504 +00:00  13] [Fatal] API.Program Running ManualMigrateReadingProfiles migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.596 +00:00  13] [Fatal] API.Program Running ManualMigrateReadingProfiles migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.604 +00:00  13] [Fatal] API.Program Running ManualMigrateEnableMetadataMatchingDefault migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.657 +00:00  13] [Warning] Microsoft.EntityFrameworkCore.Query The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+[Kavita] [2026-04-14 07:08:04.746 +00:00  13] [Warning] Microsoft.EntityFrameworkCore.Query The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+[Kavita] [2026-04-14 07:08:04.841 +00:00  13] [Fatal] API.Program Running ManualMigrateEnableMetadataMatchingDefault migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.848 +00:00  13] [Fatal] API.Program Running ManualMigrateBookReadingProgress migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.893 +00:00  13] [Fatal] API.Program Running ManualMigrateBookReadingProgress migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.894 +00:00  13] [Fatal] API.Program Running MigrateBadKoreaderProgress migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.916 +00:00  13] [Fatal] API.Program Running MigrateBadKoreaderProgress migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.918 +00:00  13] [Fatal] API.Program Running MigrateProgressToReadingSessions migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.930 +00:00  13] [Information] API.Program [MigrateProgressToReadingSessions] No progress records found to migrate
+[Kavita] [2026-04-14 07:08:04.935 +00:00  13] [Fatal] API.Program Running MigrateProgressToReadingSessions migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.937 +00:00  13] [Fatal] API.Program Running MigrateMissingCreatedUtcDate migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.968 +00:00  13] [Fatal] API.Program Running MigrateMissingCreatedUtcDate migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.969 +00:00  13] [Fatal] API.Program Running MigrateTotalReads migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:04.988 +00:00  13] [Information] API.Program [MigrateTotalReads] No progress records found to migrate
+[Kavita] [2026-04-14 07:08:04.992 +00:00  13] [Fatal] API.Program Running MigrateTotalReads migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:04.994 +00:00  13] [Fatal] API.Program Running MigrateToAuthKeys migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:05.054 +00:00  13] [Fatal] API.Program Running MigrateToAuthKeys migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:05.056 +00:00  13] [Fatal] API.Program Running MigrateMissingAppUserRatingDateColumns migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:05.057 +00:00  13] [Debug] API.Program Checking for missing date columns on AppUserRating table
+[Kavita] [2026-04-14 07:08:05.062 +00:00  13] [Debug] API.Program All date columns already exist on AppUserRating table. Skipping migration.
+[Kavita] [2026-04-14 07:08:05.067 +00:00  13] [Fatal] API.Program Running MigrateMissingAppUserRatingDateColumns migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:05.068 +00:00  13] [Fatal] API.Program Running MigrateFormatToActivityDataV2 migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:05.083 +00:00  13] [Information] API.Program No activity data requires Format backfill
+[Kavita] [2026-04-14 07:08:05.087 +00:00  13] [Fatal] API.Program Running MigrateFormatToActivityDataV2 migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:05.088 +00:00  13] [Fatal] API.Program Running MigrateIncorrectUtcTimes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-04-14 07:08:05.104 +00:00  13] [Information] API.Program Corrected 0 session records
+[Kavita] [2026-04-14 07:08:05.109 +00:00  13] [Fatal] API.Program Running MigrateIncorrectUtcTimes migration - Completed. This is not an error
+[Kavita] [2026-04-14 07:08:05.116 +00:00  13] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-04-14 07:08:05.593 +00:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-04-14 07:08:05.682 +00:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-04-14 07:08:05.685 +00:00  1] [Information] API.Program Kavita - v0.8.9.1
+[Kavita] [2026-04-14 07:08:05.705 +00:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-04-14 07:08:05.705 +00:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-04-14 07:08:05.706 +00:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /kavita
+[Kavita] [2026-04-14 07:09:00.473 +00:00  16] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 44.2020 ms
+[Kavita] [2026-04-14 07:09:01.209 +00:00  47] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/account/oidc-authenticated responded 200 in 16.7000 ms
+[Kavita] [2026-04-14 07:09:01.958 +00:00  17] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/settings/oidc responded 200 in 57.8698 ms
+[Kavita] [2026-04-14 07:09:01.987 +00:00  45] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/locale responded 200 in 696.6973 ms
+[Kavita] [2026-04-14 07:09:01.988 +00:00  52] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 88.1183 ms
+[Kavita] [2026-04-14 07:09:02.142 +00:00  52] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 2.6419 ms
+[Kavita] [2026-04-14 07:12:29.329 +00:00  51] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 304 in 62.1206 ms
+[Kavita] [2026-04-14 07:12:30.099 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/account/oidc-authenticated responded 200 in 3.7856 ms
+[Kavita] [2026-04-14 07:12:30.385 +00:00  54] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/locale responded 200 in 64.3639 ms
+[Kavita] [2026-04-14 07:12:34.129 +00:00  4] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/account/oidc-authenticated responded 200 in 17.4176 ms
+[Kavita] [2026-04-14 07:12:34.284 +00:00  4] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/locale responded 200 in 2.0027 ms
+[Kavita] [2026-04-14 07:12:34.691 +00:00  4] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/settings/oidc responded 200 in 7.1232 ms
+[Kavita] [2026-04-14 07:12:34.697 +00:00  4] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 1.8500 ms
+[Kavita] [2026-04-14 07:12:35.127 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 3.6577 ms
+[Kavita] [2026-04-14 07:16:55.081 +00:00  60] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 304 in 0.4325 ms
+[Kavita] [2026-04-14 07:16:56.135 +00:00  59] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/account/oidc-authenticated responded 200 in 2.5257 ms
+[Kavita] [2026-04-14 07:16:56.260 +00:00  56] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/locale responded 200 in 1.8900 ms
